@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		h1{
+			background-color: whitesmoke;
+		}
+		form{
+			background-image: url(https://images.squarespace-cdn.com/content/v1/56d5c7764c2f855d9c97a18e/1716906437381-HGVBD3O676B32LWXR9GJ/ALUM+CHINE+XT4+2117.jpg?format=1500w);
+			color: white;
+		}
+		form input:hover{
+			background-color: grey;
+		}
+		div{
+			color: grey;
+		}
+		.nav{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		#nav-link{
+			display: flex;
+			justify-content: space-around;
+		}
+
+	</style>
+
+	
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<div >
+			<i class="fa-solid fa-house"></i>
+		</div>
+			<div class="nav-items" id="nav-link"></div>
+			<div>Home</div>
+			<div>about us</div>
+			<div>contact</div>
+		</div>
+	</div>
+	<h1 align="center">Form</h1>
+	<form align="center">
+		<fieldset>
+			<legend align="Center">Application Form </legend>
+			1. Name:<input type="text" name=""><br>
+			2. Email <input type="email" name=""><br>
+			3. Mobile Number <input  type="phone" name=""><br>
+			4. Password <input type="password" name=""><br>
+			5. DOB <input type="date" name=""><br>
+			6. Local date: <input type="datetime-local" name=""><br>
+			7. Gender: <br>
+			1 Male <input type="radio" name="a">
+			2 Female <input type="radio" name="a">
+			<br>
+			8. Hobbies:
+			<input type="checkbox" name="">Cricket<br>
+			<input type="checkbox" name="">Tennis<br>
+			<input type="checkbox" name="">Football<br>
+			9. Range: <input type="range" name=""><br>
+			10. Country:<br>
+			<select value="country">
+				<option>INDIA</option>
+				<option>CHINA</option>
+				<option>RUSSIA</option>
+				<option>JAPAN</option>
+			</select><br>
+			<input type="submit" name="">
+			<input type="reset" name="">
+
+		</fieldset>
+	</form>
+</body>
+</html>

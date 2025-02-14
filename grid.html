@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grid</title>
+	<style type="text/css">
+		.section{
+			display: grid;
+			border: 2px black;
+			padding: 20px;
+			grid-template-areas: 
+			'head'
+			'main'
+			'menu'
+			'right'
+			'foot'
+			'hat'
+			'cat'
+			'bit'
+			'bot';
+		}
+		.item{
+			border: 2px solid black;
+			padding: 20px;
+			text-align: center;
+		}
+		#item1{
+			grid-area: head;
+		}
+		#item2{
+			grid-area: main;
+		}
+		#item3{
+			grid-area: menu;
+		}
+		#item4{
+			grid-area: right;
+		}
+		#item5{
+			grid-area: foot;
+		}
+		#item6{
+			grid-area: hat;
+		}
+		#item7{
+			grid-area: cat;
+		}
+		#item8{
+			grid-area: bit;
+		}
+		#item9{
+			grid-area: bot;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="section">
+		<div class="item" id="item1">1</div>
+		<div class="item" id="item2">2</div>
+		<div class="item" id="item3">3</div>
+		<div class="item" id="item4">4</div>
+		<div class="item" id="item5">5</div>
+		<div class="item" id="item6">6</div>
+		<div class="item" id="item7">7</div>
+		<div class="item" id="item8">8</div>
+		<div class="item" id="item9">9</div>
+	</div>
+</body>
+</html>
